@@ -7,6 +7,8 @@ Navbar project
 
 Small navbar project using the "burger" menu, this is my first project using Javascript.
 
+https://albertobermejo93.github.io/navbar-project/
+
 
 I had been looking for a navbar design that I liked visually on the internet and I came across this video wich presented a clean design with some javascript 
 and I decided to give it a try and build my own.

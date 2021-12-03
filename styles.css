@@ -1,17 +1,7 @@
-html {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  background-color: rgb(236, 226, 213);
 }
 
 nav {
@@ -63,26 +53,20 @@ nav {
 
 
 
-.img-wrapper {
-  width: 100%;
-
-}
-
-.img-wrapper img {
-  height: 63em;
+main .img-wrapper {
+  background-image: url(resources/Images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: block;
-  margin: auto;
-
+  height: 100vh;
 }
 
-.text-wrapper {
-  width: 100%;
-  position: relative;
-  margin-top: -45%;
+main .img-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .text-wrapper h1 {
   text-align: center;
